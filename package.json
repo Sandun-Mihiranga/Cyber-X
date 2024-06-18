@@ -9,9 +9,9 @@
         "stop": "pm2 stop wabot",
         "restart": "pm2 restart wabot"
     },
-    "author": "darkalphaxteam",
+    "author": "Itxtaifur",
     "dependencies": {
-        "@whiskeysockets/baileys": "https://github.com/Itxtaifur/Baileys",
+        "@whiskeysockets/baileys": "git.https://github.com/Itxtaifur/Baileys.git",
         "@adiwajshing/keyed-db": "^0.2.4",
         "@bochilteam/scraper-images" : "^1.0.2",
         "@blackamda/telegram-image-url" : "^1.0.0",
