@@ -10,7 +10,7 @@ getContentType
 const fs = require('fs')
 const P = require('pino')
 const pino = require('pino')
-concst config = require('./config')
+const config = require('./config')
 const qrcode = require('qrcode-terminal')
 const dl = require('@bochilteam/scraper')
 const { DBM } = require('postgres_dbm')
