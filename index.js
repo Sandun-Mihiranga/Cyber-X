@@ -6,11 +6,11 @@ DisconnectReason,
 downloadContentFromMessage,
 jidNormalizedUser,
 getContentType
-} = import ('@whiskeysockets/baileys')
+} = require  ('@whiskeysockets/baileys')
 const fs = require('fs')
 const P = require('pino')
 const pino = require('pino')
-const config = require('./config')
+concst config = require('./config')
 const qrcode = require('qrcode-terminal')
 const dl = require('@bochilteam/scraper')
 const { DBM } = require('postgres_dbm')
