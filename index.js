@@ -575,7 +575,7 @@ menuc += `⏲️ *Pattern - ${commands[i].pattern}*
 `
 }}};
 
-let menumg = `🔐 *MAIN COMMAND LIST-Taifur-X 2.0*
+let menumg = `🔐 *MAIN COMMAND LIST-TAIFUR-X 2.0*
 
 ${menuc}
 
