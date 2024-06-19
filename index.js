@@ -6,7 +6,7 @@ DisconnectReason,
 downloadContentFromMessage,
 jidNormalizedUser,
 getContentType
-} = require('@whiskeysockets/baileys')
+} = import ('@whiskeysockets/baileys')
 const fs = require('fs')
 const P = require('pino')
 const pino = require('pino')
