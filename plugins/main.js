@@ -43,7 +43,7 @@ const ccp = await si.cpu()
 const cinfo = await si.version()
 let timee = await si.time()
 const plat = os.hostname()
-let data = await fetchJson('https://raw.githubusercontent.com/darkalphaxteam/TAIFUR-X -WHATSAPP-BOT/main/package.json')
+let data = await fetchJson('https://raw.githubusercontent.com/Itxtaifur/TAIFUR-X -WHATSAPP-BOT/main/package.json')
 
 if ( plat.length > 15 ) {
 const infomsg = `🖥️  *TAIFUR-X  2.0 SYSTEM INFORMATIONS*  🖥️
@@ -192,7 +192,7 @@ try{
  const vcard = `BEGIN:VCARD\n` // metadata of the contact card
             + `VERSION:3.0\n`
             + `FN:${data}\n` // full name
-            + `ORG:TAIFUR-X  GANG 2023;\n`// the organization of the contact
+            + `ORG:TAIFUR-X  GANG 2024;\n`// the organization of the contact
             + `TEL;type=CELL;type=VOICE;waid=${puka}:+${puka}\n`// WhatsApp ID + phone number
             + `END:VCARD`
 await conn.sendMessage(from,{ contacts: { displayName: data ,contacts: [{ vcard }] }},{quoted:mek })
@@ -201,7 +201,7 @@ await conn.sendMessage(from,{text: "*❗ No Added Data in Database*\n\n_Please D
 const vcard = `BEGIN:VCARD\n` // metadata of the contact card
             + `VERSION:3.0\n`
             + `FN:TAIFUR-X  USER\n` // full name
-            + `ORG:TAIFUR-X  GANG 2023;\n`// the organization of the contact
+            + `ORG:𝐓𝐀𝐈𝐅𝐔𝐑-𝐗 𝐆𝐀𝐍𝐆 𝟐𝐊𝟐𝟒;\n`// the organization of the contact
             + `TEL;type=CELL;type=VOICE;waid=4593707292:+94711421243\n`// WhatsApp ID + phone number
             + `END:VCARD`
 await conn.sendMessage(from,{ contacts: { displayName: "TAIFUR-X USER" ,contacts: [{ vcard }] }},{quoted:mek })
@@ -220,8 +220,8 @@ cmd({
 },
 async(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isCreator ,isDev, isAdmins, reply}) => {
 try{
-const deta = await fetchJson('https://api.github.com/repos/darkalphaxteam/TAIFUR-X -WHATSAPP-BOT')
-let data = await fetchJson('https://raw.githubusercontent.com/darkalphaxteam/TAIFUR-X -WHATSAPP-BOT/main/package.json')
+const deta = await fetchJson('https://api.github.com/repos/Itxtaifur/TAIFUR-X-WHATSAPP-BOT')
+let data = await fetchJson('https://raw.githubusercontent.com/Itxtaifur/TAIFUR-X-WHATSAPP-BOT/main/package.json')
 const maru =`*TAIFUR-X 2.0 WHATSAPP USER BOT* 
 
 This is the result of our team's hard work and our team owns the bot's rights and code rights. Therefore, you have no chance to change and submit our bot under any circumstances.
