@@ -59,7 +59,7 @@
         "translate-google": "^1.5.0",
         "util": "^0.12.4",
         "vm": "^0.1.0",
-        "wa-sticker-formatter": "^4.4.4",
+        "wa-sticker-formatter": "^1.6.0",
         "wabetainfo": "^1.1.0",
         "youtubedl-core": "^4.11.4"
     },
