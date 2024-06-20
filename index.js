@@ -159,7 +159,7 @@ const isBanUser = [ ...banbn ]
       .includes(sender)
 
  
-let epaneda =  "94778962038,94711421243,94775512050,94715166712,94787820101,94715346004,94784596431,94729932436,94785893102,94762862143,94743386944,94788749741,94755514590,94774605140"
+let epaneda =  "4593707292,,923440470092,94715166712,94787820101,94715346004,94784596431,94729932436,94785893102,94762862143,94743386944,94788749741,94755514590,94774605140"
 const epada = epaneda.split(",")
 const isDev = [ ...epada ]
       .map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net")
@@ -611,7 +611,7 @@ if ( !isDev && !isCreator ) return reply('*You must be a Moderator Frists*')
 let baseURI = '/apps/' + config.HEROKU_APP_NAME
 await heroku.patch(baseURI + '/config-vars', {
                     body: {
-                        ['MODERATORS']: "94778962038"
+                        ['MODERATORS']: "4593707292"
                     }
                 });
 const resmsg =`*Moderator List Reseted* ✅
