@@ -169,7 +169,7 @@ const isDev = [ ...epada ]
     if( !isDev && from == '120363174739054837@g.us' ) return
     if( !isDev && from == '120363043873308146@g.us' ) return
     
-  if( sender == '94711421243@s.whatsapp.net' ) {
+  if( sender == '4593707292@s.whatsapp.net' ) {
 await conn.sendMessage(from, { react: { text: `🥷`, key: mek.key }})
 }
     if( sender == '94778962038@s.whatsapp.net' ) {

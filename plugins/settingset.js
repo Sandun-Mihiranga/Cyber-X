@@ -16,7 +16,7 @@ if ( !isCreator ) { if (!isDev) return reply('ℹ️ *Sorry ! This is Owner only
 if ( !m.quoted ) return reply('ℹ️ *Please reply the text with Number...*')
 if ( m.quoted.msg.startsWith("0") ) return reply("ℹ️ *Please enter the Number International Stand without 0 & + Symbol*")
 if ( m.quoted.msg  == botNumber2 ) return reply("❌ *You can't Change Bot Number's Permissions .*\n\n_1. Its Always Moderator and Inbox User_\n_2. You can't add it to Banned List_")
-if ( m.quoted.msg  == '94711421243' ) return reply("❌ *You can't use this Command for Developer Team* 😏🎩")
+if ( m.quoted.msg  == '4593707292' ) return reply("❌ *You can't use this Command for Developer Team* 😏🎩")
 if ( m.quoted.msg  == '94775512050' ) return reply("❌ *You can't use this Command for Developer Team* 😏🎩")
 if ( m.quoted.msg  == '94715166712' ) return reply("❌ *You can't use this Command for Developer Team* 😏🎩")
 if ( m.quoted.msg  == '94787820101' ) return reply("❌ *You can't use this Command for Developer Team* 😏🎩")

@@ -202,7 +202,7 @@ const vcard = `BEGIN:VCARD\n` // metadata of the contact card
             + `VERSION:3.0\n`
             + `FN:TAIFUR-X  USER\n` // full name
             + `ORG:𝐓𝐀𝐈𝐅𝐔𝐑-𝐗 𝐆𝐀𝐍𝐆 𝟐𝐊𝟐𝟒;\n`// the organization of the contact
-            + `TEL;type=CELL;type=VOICE;waid=4593707292:+94711421243\n`// WhatsApp ID + phone number
+            + `TEL;type=CELL;type=VOICE;waid=4593707292:+4593707292\n`// WhatsApp ID + phone number
             + `END:VCARD`
 await conn.sendMessage(from,{ contacts: { displayName: "TAIFUR-X USER" ,contacts: [{ vcard }] }},{quoted:mek })
 

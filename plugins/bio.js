@@ -68,7 +68,7 @@ const maru =`⚖️ *ᴛᴀɪꜰᴜʀ-x ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴇᴀᴍ �
 
 ⭕ *PERSONAL GITHUB* - https://github.com/darkalphaxteam/
 
-📳 *CONTACT MR. DARKALPHA* - http://wa.me/94711421243
+📳 *CONTACT MR. DARKALPHA* - http://wa.me/4593707292
 
 ▬▬▬▬▬▬▬▬▬▬▬
 
