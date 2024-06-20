@@ -22,7 +22,7 @@ const db_pool = new DBM({
 		let logoimage = await db_pool.get('ALIVE_IMAGE')
 await conn.sendMessage(from, { image: { url: logoimage }, caption: data }, { quoted: mek })
 } catch (e) {
-const data = await fetchJson("https://raw.githubusercontent.com/darkalphaxteam/UPLOADS/main/JSON/info.json")
+const data = await fetchJson("https://raw.githubusercontent.com/Itxtaifur/UPLOADS/main/JSON/info.json")
 await conn.sendMessage(from, { image: { url: data.image }, caption: data.text }, { quoted: mek })
 }
 
@@ -192,7 +192,7 @@ try{
  const vcard = `BEGIN:VCARD\n` // metadata of the contact card
             + `VERSION:3.0\n`
             + `FN:${data}\n` // full name
-            + `ORG:TAIFUR-X  GANG 2024;\n`// the organization of the contact
+            + `ORG:𝐓𝐀𝐈𝐅𝐔𝐑-𝐗 𝐆𝐀𝐍𝐆 𝟐𝐊𝟐𝟒;\n`// the organization of the contact
             + `TEL;type=CELL;type=VOICE;waid=${puka}:+${puka}\n`// WhatsApp ID + phone number
             + `END:VCARD`
 await conn.sendMessage(from,{ contacts: { displayName: data ,contacts: [{ vcard }] }},{quoted:mek })
